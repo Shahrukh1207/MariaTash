@@ -11,7 +11,7 @@ public class Celebrity {
 
 	
 	public static void main(String[] args)  throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/home/sharukh/Downloads/chromedriverv79/chromedriver");
+		System.setProperty("webdriver.chrome.driver","D:\\Downloads\\chromedriver_win32/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS) ;
